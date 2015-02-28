@@ -108,5 +108,5 @@ get the value for your variable
 
 subscrive to an event
 ```
-core.subscribe("someEvent",someCallback)
+>>> myCore.subscribe("someEvent",someCallback)
 ```
