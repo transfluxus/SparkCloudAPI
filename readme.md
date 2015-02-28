@@ -10,6 +10,12 @@ This modules requires the [requests](http://requests.readthedocs.org/en/latest/)
 pip install requests
 ```
 
+And [eventsource](https://pythonhosted.org/eventsource/) package for event-subscription...:
+```
+pip install eventsource
+```
+
+
 ## Currently working
 
 * generating a acces token
@@ -17,6 +23,7 @@ pip install requests
 * deleting an access token
 * calling a function
 * getting a variable value
+* subscribe to an event of one core
 
 ## Example
 
@@ -93,4 +100,9 @@ get the value for your variable
 ```
 >>> print myCore.readVariable('someVariable')
 42
+```
+
+subscrive to an event
+```
+core.subscribe("someEvent",someCallback)
 ```
