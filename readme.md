@@ -33,11 +33,15 @@ pip install eventsource
 4. get your deviceID ready, just hit "Cores"
 5. open your Terminal, start Python and write
 
-create a new object for your Spark Core
+create a new object for your Spark Core (will generate a new access token)
 
 ```
 >>> from SparkCloudAPI import SparkCore
 >>> myCore = SparkCore('YOUREMAIL@ADRESS.com', 'YOURPASSWORD', 'YOURDEVICEID')
+```
+or
+```
+myCore = SparkCore('YOUREMAIL@ADRESS.com', 'YOURPASSWORD', 'YOURDEVICEID','ACCESS_TOKEN')
 ```
 
 get an access token
