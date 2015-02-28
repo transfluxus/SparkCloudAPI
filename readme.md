@@ -107,6 +107,7 @@ get the value for your variable
 ```
 
 subscrive to an event
+
 ```
 >>> myCore.subscribe("someEvent",someCallback)
 ```
